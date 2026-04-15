@@ -15,7 +15,7 @@ public class Game {
     private TickTimer tickTimer;
     private boolean running = false;
     private boolean paused = false;        // коммит1
-    private Thread gameThread;
+    private Thread gameThread;  //коммит2
     private boolean testMode = false;
 
     private long startTime;
