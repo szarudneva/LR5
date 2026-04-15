@@ -16,7 +16,7 @@ public class Game {
     private boolean running = false;
     private boolean paused = false;        // коммит1
     private Thread gameThread;  //коммит2
-    private boolean testMode = false;
+    private boolean testMode = false; //коммит3
 
     private long startTime;
     private long pausedTime;               // НОВОЕ ПОЛЕ
