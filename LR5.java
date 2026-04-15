@@ -19,7 +19,7 @@ public class Game {
     private boolean testMode = false; //коммит3
 
     private long startTime;
-    private long pausedTime;               // НОВОЕ ПОЛЕ
+    private long pausedTime;               //коммит4
     private int moveCount;
     private int elapsedSeconds;
 
