@@ -31,7 +31,7 @@ public class Game {
         this.testMode = testMode;
         this.moveCount = 0;
         this.elapsedSeconds = 1;
-        this.paused = true;
+        this.paused = false;
         this.timerFactory = new TimerFactory();
     }
 
