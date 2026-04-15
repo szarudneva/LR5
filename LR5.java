@@ -14,7 +14,7 @@ public class Game {
     private MillisecondTimer millisecondTimer;
     private TickTimer tickTimer;
     private boolean running = false;
-    private boolean paused = false;        // НОВОЕ ПОЛЕ
+    private boolean paused = false;        // коммит1
     private Thread gameThread;
     private boolean testMode = false;
 
