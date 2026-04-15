@@ -29,7 +29,7 @@ public class Game {
 
     public Game(boolean testMode) {
         this.testMode = testMode;
-        this.moveCount = 0;
+        this.moveCount = 1;
         this.elapsedSeconds = 0;
         this.paused = false;
         this.timerFactory = new TimerFactory();
