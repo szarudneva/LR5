@@ -44,7 +44,7 @@ public class Game {
         saboteur = new SimpleSaboteur(gameField);
         saboteur.start();
 
-        startTime = System.currentTimeMillis();
+        startTime = System.currentTimeMillis(); //коммит1
         running = true;
         paused = false;
 
