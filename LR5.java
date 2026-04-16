@@ -68,7 +68,7 @@ public class Game {
     // НОВЫЙ МЕТОД - поставить на паузу
     public void pauseGame() { //коммит1
         if (running && !paused) { //коммит2
-            paused = true;
+            paused = true; //коммит3
             pausedTime = System.currentTimeMillis();
             timerFactory.pauseAllTimers();
             System.out.println("Игра на паузе");
