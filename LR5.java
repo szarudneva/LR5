@@ -69,7 +69,7 @@ public class Game {
     public void pauseGame() { //коммит1
         if (running && !paused) { //коммит2
             paused = true; //коммит3
-            pausedTime = System.currentTimeMillis();
+            pausedTime = System.currentTimeMillis(); //коммит4
             timerFactory.pauseAllTimers();
             System.out.println("Игра на паузе");
         }
