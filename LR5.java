@@ -66,7 +66,7 @@ public class Game {
     }
 
     // НОВЫЙ МЕТОД - поставить на паузу
-    public void pauseGame() {
+    public void pauseGame() { //коммит1
         if (running && !paused) {
             paused = true;
             pausedTime = System.currentTimeMillis();
