@@ -46,7 +46,7 @@ public class Game {
 
         startTime = System.currentTimeMillis(); //коммит1
         running = true; //коммит 2
-        paused = false;
+        paused = false; //коммит3
 
         if (!testMode) {
             gameThread = new Thread(this::runGameLoop);
