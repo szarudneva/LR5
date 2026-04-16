@@ -48,7 +48,7 @@ public class Game {
         running = true; //коммит 2
         paused = false; //коммит3
 
-        if (!testMode) {
+        if (!testMode) { //коммит4
             gameThread = new Thread(this::runGameLoop);
             gameThread.start();
 
