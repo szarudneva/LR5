@@ -45,7 +45,7 @@ public class Game {
         saboteur.start();
 
         startTime = System.currentTimeMillis(); //коммит1
-        running = true;
+        running = true; //коммит 2
         paused = false;
 
         if (!testMode) {
